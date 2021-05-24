@@ -1,0 +1,26 @@
+git config --global user.name "--" - configurar usuário
+ git config --global user.email "--" - configurar email
+  git config --global core.editor "editor de texto" - configurar editor de texto
+   git config --list - listar config do git
+
+git help - comandos git
+
+git init - iniciar o git
+
+git status - verificar status do git
+
+git add <FILE> - permite o git a encontrar arquivos/pastas sendo o <--> o nome do arquivo em questão quando apresentado no status
+
+git commit -m "Primeiro commit" - Realizar um commit
+
+git log - verificar log de alteração etc
+ git log --oneline - resumo de log
+  git log --since=2020-01-01 - arquivo commitado nesse dia
+   git log --author="alexandro" - log de autor que commitou
+
+
+git branch "name" - criar uma branch master no repositório
+git branch - mostra a(s) branch criada(s)
+git status - mostar o status da branch e arquivos em commit
+git checkout "nome da branch" - navegar entre as branch
+git diff - comparar arquivos
